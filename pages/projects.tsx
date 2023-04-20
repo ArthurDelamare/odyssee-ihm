@@ -37,6 +37,30 @@ const Projects: NextPage = () => {
           duration="3 ans"
         />
       </div>
+      <div className={styles.cardContainer}>
+        <Card
+          title="Solaris"
+          status="collecte en cours"
+          type="Ferme solaire sur le bassin parisien"
+          percentage={80}
+          aimed="700k euros"
+          debtType="Dette convertible"
+          rendement="Rendement annuel : 6%"
+          duration="2 ans"
+        />
+      </div>
+      <div className={styles.cardContainer}>
+        <Card
+          title="Elek’en’stock"
+          status="collecte en cours"
+          type="Usine de stockage d'électricité"
+          percentage={35}
+          aimed="900k euros"
+          debtType="Dette convertible"
+          rendement="Rendement annuel : 11%"
+          duration="4 ans"
+        />
+      </div>
     </div>
   );
 };
