@@ -1,0 +1,46 @@
+.container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.smallText {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.textSeparator {
+  margin-right: 10px;
+}
+
+.smallTextWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+
+.projectType {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  background-color: #6dd400;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1vw;
+}

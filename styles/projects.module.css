@@ -1,0 +1,64 @@
+.container {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #44d7b6;
+  padding-left: 3vw;
+  padding-top: 1vh;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.titleWrapper {
+  display: flex;
+}
+
+.country {
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 1vh;
+}
+
+.type {
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.filterWrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1vh;
+  margin-right: 3vw;
+}
+
+.filter {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.cardContainer {
+  margin: 1vh;
+}
